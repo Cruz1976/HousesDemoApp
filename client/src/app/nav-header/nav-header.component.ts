@@ -24,6 +24,7 @@ export class NavHeaderComponent implements OnInit {
   }
   logout() {
     this.accountService.logout();
-    this.router.navigateByUrl('/account');
+
+   // this.router.navigateByUrl('/account');
    }
 }

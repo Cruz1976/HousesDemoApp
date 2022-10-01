@@ -16,12 +16,16 @@ public static class DbInitializer
         {
             using (var tranaction = context.Database.BeginTransaction())
             {
+                var userId = "";
                 if (!roleManager.Roles.Any())
                 {
                     var roles = new List<IdentityRole>
                     {
                         new IdentityRole {Name = "Member", },
+                        new IdentityRole {Name = "Tenant", },
+                        new IdentityRole {Name = "Landlord", },
                         new IdentityRole {Name = "Admin"},
+                        new IdentityRole {Name = "Developer"},
                         new IdentityRole {Name = "Manager"},
                     };
                     foreach (var role in roles)
@@ -33,17 +37,54 @@ public static class DbInitializer
                 {
                     var user = new AppUser
                     {
-                        UserName = "user@me.com",
-                        Email = "user@me.com"
+                        UserName = "user@test.com",
+                        Email = "user@test.com"
                     };
 
                     await userManager.CreateAsync(user, "Pa55w0rd!");
                     await userManager.AddToRoleAsync(user, "Member");
+                  
+                    var userTony = new AppUser
+                    {
+                        UserName = "tony@me.com",
+                        Email = "tony@me.com",
+                        NickName = "Mr T Cruz",
+                        Avatar = "https://randomuser.me/api/portraits/men/59.jpg"
+                    };
+
+                    await userManager.CreateAsync(userTony, "Pa55w0rd!");
+                    await userManager.AddToRolesAsync(userTony, new[] { "Member", "Admin", "Tenant", "Landlord", "Developer" });
+                    userId = userTony.Id;
+
+
+                    var userTenant = new AppUser
+                    {
+                        UserName = "tenant@test.com",
+                        Email = "tenant@test.com",
+                        NickName = "Test Tenast",
+                        Avatar = "https://randomuser.me/api/portraits/men/1.jpg"
+                    };
+
+                    await userManager.CreateAsync(userTenant, "Pa55w0rd!");
+                    await userManager.AddToRoleAsync(userTenant, "Tenant");
+
+                    var userLandlord = new AppUser
+                    {
+                        UserName = "landlord@test.com",
+                        Email = "landlord@test.com",
+                        NickName = "Test landlord",
+                        Avatar = "https://randomuser.me/api/portraits/men/54.jpg"
+                    };
+
+                    await userManager.CreateAsync(userLandlord, "Pa55w0rd!");
+                    await userManager.AddToRoleAsync(userTenant, "Landlord");
+
 
                     var admin = new AppUser
                     {
-                        UserName = "admin",
-                        Email = "admin@test.com"
+                        UserName = "admin@test.com",
+                        Email = "admin@test.com",
+                        Avatar = "https://randomuser.me/api/portraits/men/54.jpg"
                     };
 
                     await userManager.CreateAsync(admin, "Pa55w0rd!");
@@ -78,6 +119,7 @@ public static class DbInitializer
                                 MobileNumber = landlord.MobileNumber!,
                                 LandlordNote = landlord.LandlordNote!,
                                 PhotoUrl = landlord.PhotoUrl!,
+                                UserId = userId
                             };
                             context.Landlords.Add(_landlord);
                             agLandlords.Add(_landlord);
@@ -92,6 +134,7 @@ public static class DbInitializer
                                 MobileNumber = tenant.MobileNumber!,
                                 TenantNote = tenant.TenantNote!,
                                 PhotoUrl = tenant.PhotoUrl!,
+                                UserId=userId
                             };
                             context.Tenants.Add(_tenant);
                             agTenats.Add(_tenant);
@@ -107,7 +150,9 @@ public static class DbInitializer
                             Address6 = agreement.House.Address6!,
                             Premises = agreement.House.Premises!,
                             Rent = (decimal)agreement.Rent!,
-                            HouseNote =  agreement.House.HouseNote!
+                            HouseNote =  agreement.House.HouseNote!,
+                            UserId = userId
+                            
                         };
                         context.Add(house);
                         
@@ -120,7 +165,8 @@ public static class DbInitializer
                             Landlords = agLandlords,
                             Tenants = agTenats,
                             House = house,
-                            Rent = (decimal)agreement.Rent
+                            Rent = (decimal)agreement.Rent,
+                            UserId = userId
                         };
                         context.Agreements.Add(_agreement);
                     }

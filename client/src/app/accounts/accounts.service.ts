@@ -37,7 +37,7 @@ export class AccountsService {
     const isExpired = this.helper.isTokenExpired(token);
     debugger;
     if (token === null ||  isExpired ) {
-      this.currentUserSource.next(<IUser>{});
+      this.currentUserSource.next(<IUser>{ });
       return of(null);
     }
 
@@ -57,7 +57,7 @@ export class AccountsService {
 
   // tslint:disable-next-line:typedef
   login(values: any) {
-    return this.http.post(this.baseUrl + 'Account/login', values).pipe(
+    return this.http.post(this.baseUrl + 'account/login', values).pipe(
       map((user: any) => {
         if (user) {
           this.currentUser = user as IUser;
@@ -86,8 +86,8 @@ export class AccountsService {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
     this.currentUser = undefined;
-    this.currentUserSource.next(<IUser>{});
-    //this.router.navigateByUrl('accounta/signin');
-    // this.presence.stopHubConnection();
+    let nullUser: any;
+    this.currentUserSource.next(nullUser);
+    //this.router.navigateByUrl('/account');
   }
 }

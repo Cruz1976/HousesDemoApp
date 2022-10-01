@@ -10,12 +10,20 @@
     <ul class="navbar-nav ml-auto pb-0 me-5" >
 
       <li class="nav-item" dropdown *ngIf="currentUser$ | async as user">
-        <div class="dropdown" dropdownToggle>
-          <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="dropdown" >
+          <!-- <a href class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="link-basic" aria-controls="dropdown-alignment" dropdownToggle data-bs-toggle="dropdown" aria-expanded="false">
             <img src="{{user.avatar}}" alt="" width="40" height="40" class="rounded-circle me-2">
             <strong></strong>
-          </a>
-          <ul class="text-small shadow dropdown-menu dropdown-menu-right animated--grow-in mt-3" *dropdownMenu style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate(0px, -34px);">
+          </a> -->
+          <a href id="basic-link" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+           dropdownToggle (click)="false" aria-controls="basic-link-dropdown">
+           <img src="{{user.avatar}}" alt="" width="40" height="40" class="rounded-circle me-2">
+            <strong></strong>
+        </a>
+          <ul id="basic-link-dropdown" *dropdownMenu
+              class="dropdown-menu dropdown-menu-right text-small shadow  animated--grow-in mt-3"
+              role="menu" aria-labelledby="basic-link"
+              style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate(0px, -34px);">
             <li><a class="dropdown-item" href="#">New project...</a></li>
             <li><a class="dropdown-item" href="#">Settings</a></li>
             <li><a class="dropdown-item" href="#">Profile</a></li>

@@ -25,15 +25,15 @@ export class SigninComponent implements OnInit {
 
   createLoginForm() {
     this.loginForm = new FormGroup({
-      email: new FormControl('', [Validators.required, Validators.email]),
-      password: new FormControl('', Validators.required)
+      email: new FormControl('tony@me.com', [Validators.required, Validators.email]),
+      password: new FormControl('Pa55w0rd!', Validators.required)
     });
   }
   onSubmit(): void {
     console.log(this.loginForm?.value);
 
     this.accountService.login(this.loginForm?.value).subscribe((user) => {
-    //  console.log(user);
+      console.log(user);
       this.router.navigateByUrl('/');
       //if (user.occupation === 'candidates') {
        // this.candidateManagerService.createHubConnection(user, 'candidate');
