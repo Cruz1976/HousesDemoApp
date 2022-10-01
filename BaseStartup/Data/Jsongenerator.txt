@@ -1,0 +1,214 @@
+﻿[
+  '{{repeat(10)}}',
+  {
+    DoorNum: '{{integer(1, 50)}}',
+    Address1: '{{street()}}',
+    Address2: '{{city()}}',
+    Address3: '{{state()}}',
+    Address4: 'SW{{integer(1, 5)}} {{integer(6, 10)}}AB',
+    Address5: '',
+    Address6: '',
+    Rent: '{{floating(1000, 3000, 2, "00.00")}}',
+    Premises: '2 Bedroom House'
+    occupation: 'manager', 
+    HouseNote: '',
+]
+// Landlords
+[
+  '{{repeat(5)}}',
+  {
+    Fullname: '{{firstName("female")}} {{surname()}}',
+    Addres1: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, E{{integer(1, 5)}} {{integer(6, 10)}}DE' ,
+
+    Email: function () {
+    	return this.Fullname + '@gmail.com'; 
+    },
+    MobileNumber: '07 {{phone()}}',
+    ContactNumber: '0208 {{phone()}}',
+    PhotoUrl: function(num) {
+          return 'https://randomuser.me/api/portraits/women/' + num.integer(1,2) + '.jpg';
+        },
+    LandlordNote: ''
+  }
+]
+// Landlords
+[
+  '{{repeat(5)}}',
+  {
+    TenantName: '{{firstName("female")}} {{surname()}}',
+  
+    MobileNumber: '075 {{phone()}}',
+    ContactNumber: '0207 {{phone()}}',
+    Email: function () {
+    	return this.TenantName + '@hotmail.co.uk'; 
+    },
+    PhotoUrl: function(num) {
+          return 'https://randomuser.me/api/portraits/women/' + num.integer(1,2) + '.jpg';
+        },
+    TenantNote: ''
+  }
+]
+// Tenants
+[
+  '{{repeat(5)}}',
+  {
+    TenantName: '{{firstName("female")}} {{surname()}}',
+  
+    MobileNumber: '075 {{phone()}}',
+    ContactNumber: '0207 {{phone()}}',
+    Email: function () {
+    	return this.TenantName + '@hotmail.co.uk'; 
+    },
+    PhotoUrl: function(num) {
+          return 'https://randomuser.me/api/portraits/women/' + num.integer(5,10) + '.jpg';
+        },
+    TenantNote: ''
+  }
+]
+// Agreements 
+[
+  '{{repeat(10)}}',
+  {
+    DateAgreement: '{{date(new Date(2021,0,1), new Date(2022, 04, 30), "YYYY-MM-dd")}}', 
+    StartDate: function(date)  {
+      return this.DateAgreement;
+    },
+     EndDate: function(date)  {
+       var newDate = new Date(this.DateAgreement);
+       newDate.setMonth(newDate.getMonth() + 12);
+       console.log(this.DateAgreement, 'Original');
+       console.log(newDate.toISOString().slice(0, 10), 'one year');
+       return  newDate.toISOString().slice(0, 10);
+    }, 
+    Landlords: [
+      '{{repeat(2)}}',
+      {
+        Fullname: '{{firstName("female")}} {{surname()}}',
+        Addres1: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, E{{integer(1, 5)}} {{integer(6, 10)}}DE' ,
+
+        Email: function () {
+    	    return this.Fullname.replace(/\s/g, '').toLowerCase() + '@gmail.com'; 
+        },
+        MobileNumber: '07 {{phone()}}',
+        ContactNumber: '0208 {{phone()}}',
+        PhotoUrl: function(num) {
+              return 'https://randomuser.me/api/portraits/women/' + num.integer(1,50) + '.jpg';
+            },
+        LandlordNote: ''
+      }
+    ],
+    Tenants: [
+      '{{repeat(3)}}',
+      {
+        TenantName: '{{firstName("male")}} {{surname()}}',
+  
+        MobileNumber: '075 {{phone()}}',
+        ContactNumber: '0207 {{phone()}}',
+        Email: function () {
+    	    return this.TenantName.replace(/\s/g, '').toLowerCase() + '@hotmail.co.uk'; 
+        },
+        PhotoUrl: function(num) {
+              return 'https://randomuser.me/api/portraits/men/' + num.integer(1,50) + '.jpg';
+            },
+        TenantNote: ''
+      }
+    ],
+    House: {
+    DoorNum: '{{integer(1, 200)}}',
+    Address1: '{{street()}}',
+    Address2: '{{city()}}',
+    Address3: '{{state()}}',
+    Address4: 'SW{{integer(1, 5)}} {{integer(6, 10)}}AB',
+    Address5: '',
+    Address6: '',
+    Rent: function() {
+       return this.Rent;
+    },
+    Premises: '2 Bedroom House',
+    HouseNote: ''
+    },
+    Rent: '{{floating(1000, 3000, 2, "00.00")}}'
+  }
+]
+
+public class Agreement
+    {
+        public int Id { get; set; }
+        public DateTime? DateAgreement { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
+        public List<Landlord> Landlords { get; set; } = new();
+        public List<Tenant> Tenants { get; set; } = new();
+        public int HouseId { get; set; }
+        public House? House { get; set; }
+        [Precision(precision: 10, scale: 2)]
+        public decimal Rent { get; set; }  
+    }
+
+public class Tenant
+    {
+        public int Id { get; set; }
+        [Required]
+        public string FullName { get; set; } = string.Empty;
+        [Required]
+        public string MobileNumber { get; set; } = string.Empty;
+        public string ContactNumber { get; set; } = string.Empty;
+        [Required]
+        public string Email { get; set; } =  string.Empty;
+        public string PhotoUrl { get; set; } = string.Empty;
+        public string TenantNote { get; set; } = string.Empty;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class Landlord
+    {
+        public int Id { get; set; }
+        [Required]
+        public string Fullname { get; set; } = string.Empty;
+        [Required]
+        public string Address { get; set; } = string.Empty;
+
+        [Required]
+        public string Email { get; set; } = string.Empty;
+        [Required]
+        public string MobileNumber { get; set; } = string.Empty;
+        public string ContactNumber { get; set; } = string.Empty;
+
+        public string PhotoUrl { get; set; } = string.Empty;
+        public string LandlordNote { get; set; } = string.Empty;
+    }
+
+address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
+public class House
+{
+    public int Id { get; set; }
+    [Required]
+    public string DoorNum { get; set; } = String.Empty;
+    [Required]
+    public string Address1 { get; set; }= String.Empty;
+    [Required]
+    public string Address2 { get; set; } =String.Empty;
+    [Required]
+    public string Address3 { get; set; }= String.Empty ;
+    public string Address4 { get; set; } = String.Empty;
+    public string Address5 { get; set; } = String.Empty;
+    public string Address6 { get; set; } = String.Empty;
+    [Precision(precision: 10, scale: 2)]
+    public decimal Rent { get; set; }
+    public string Premises { get; set; } = String.Empty;
+    public string HouseNote { get; set; } = String.Empty;
+}

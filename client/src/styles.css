@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"); */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,400,300,500,700");
+body {
+  font-family: "Roboto", "Century Gothic", "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  color: #676a6c;
+  overflow-x: hidden;
+}

@@ -1,0 +1,3 @@
+﻿1) Add-migration initialMigration -outputDir Data/Migrations
+1) Add-migration add-users-toTables
+update-database

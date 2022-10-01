@@ -1,0 +1,632 @@
+[
+  {
+    "DateAgreement": "2022-02-10",
+    "StartDate": "2022-02-10",
+    "EndDate": "2023-02-10",
+    "Landlords": [
+      {
+        "Fullname": "Rachael Barry",
+        "Addres1": "685 Sutton Street, Bayview, Puerto Rico, E3 6DE",
+        "Email": "rachaelbarry@gmail.com",
+        "MobileNumber": "07 (831) 487-2929",
+        "ContactNumber": "0208 (924) 582-2998",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/10.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Claudia Collins",
+        "Addres1": "444 Louisiana Avenue, Salvo, Illinois, E3 8DE",
+        "Email": "claudiacollins@gmail.com",
+        "MobileNumber": "07 (847) 595-3610",
+        "ContactNumber": "0208 (966) 553-3157",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Mills Wilkins",
+        "MobileNumber": "075 (940) 559-3585",
+        "ContactNumber": "0207 (862) 401-3993",
+        "Email": "millswilkins@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/28.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Santos Mccarty",
+        "MobileNumber": "075 (945) 546-2307",
+        "ContactNumber": "0207 (892) 559-2441",
+        "Email": "santosmccarty@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/11.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Santana Perry",
+        "MobileNumber": "075 (933) 588-3704",
+        "ContactNumber": "0207 (988) 422-3081",
+        "Email": "santanaperry@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/10.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 11,
+      "Address1": "Ridgewood Avenue",
+      "Address2": "Muir",
+      "Address3": "Missouri",
+      "Address4": "SW2 7AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 2246.83
+  },
+  {
+    "DateAgreement": "2022-03-20",
+    "StartDate": "2022-03-20",
+    "EndDate": "2023-03-20",
+    "Landlords": [
+      {
+        "Fullname": "Miriam Mcintyre",
+        "Addres1": "582 Hamilton Walk, Yonah, New York, E1 10DE",
+        "Email": "miriammcintyre@gmail.com",
+        "MobileNumber": "07 (900) 589-3108",
+        "ContactNumber": "0208 (950) 527-3151",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/24.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Alta Chandler",
+        "Addres1": "141 Hopkins Street, Tetherow, Oklahoma, E2 8DE",
+        "Email": "altachandler@gmail.com",
+        "MobileNumber": "07 (935) 570-2643",
+        "ContactNumber": "0208 (883) 582-2645",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Kline Cunningham",
+        "MobileNumber": "075 (881) 483-2901",
+        "ContactNumber": "0207 (934) 523-3261",
+        "Email": "klinecunningham@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/40.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Talley Myers",
+        "MobileNumber": "075 (839) 546-3178",
+        "ContactNumber": "0207 (841) 492-2990",
+        "Email": "talleymyers@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Combs Colon",
+        "MobileNumber": "075 (878) 565-2401",
+        "ContactNumber": "0207 (907) 526-3759",
+        "Email": "combscolon@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/19.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 5,
+      "Address1": "Berkeley Place",
+      "Address2": "Riegelwood",
+      "Address3": "Arizona",
+      "Address4": "SW2 6AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 1345.18
+  },
+  {
+    "DateAgreement": "2022-01-19",
+    "StartDate": "2022-01-19",
+    "EndDate": "2023-01-19",
+    "Landlords": [
+      {
+        "Fullname": "Ofelia Townsend",
+        "Addres1": "902 Little Street, Frystown, Arkansas, E5 6DE",
+        "Email": "ofeliatownsend@gmail.com",
+        "MobileNumber": "07 (929) 596-3827",
+        "ContactNumber": "0208 (929) 443-3120",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Desiree Baker",
+        "Addres1": "938 Ivan Court, Kipp, Mississippi, E5 10DE",
+        "Email": "desireebaker@gmail.com",
+        "MobileNumber": "07 (983) 498-3142",
+        "ContactNumber": "0208 (858) 510-3694",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/43.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Sexton Hancock",
+        "MobileNumber": "075 (807) 587-3431",
+        "ContactNumber": "0207 (807) 582-3913",
+        "Email": "sextonhancock@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/44.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Snow Mccullough",
+        "MobileNumber": "075 (934) 519-2635",
+        "ContactNumber": "0207 (906) 570-3111",
+        "Email": "snowmccullough@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Golden Haney",
+        "MobileNumber": "075 (923) 414-2118",
+        "ContactNumber": "0207 (806) 468-2450",
+        "Email": "goldenhaney@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 115,
+      "Address1": "Monroe Place",
+      "Address2": "Steinhatchee",
+      "Address3": "Federated States Of Micronesia",
+      "Address4": "SW2 7AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 2648.22
+  },
+  {
+    "DateAgreement": "2022-03-30",
+    "StartDate": "2022-03-30",
+    "EndDate": "2023-03-30",
+    "Landlords": [
+      {
+        "Fullname": "Candace Pitts",
+        "Addres1": "894 Hutchinson Court, Lutsen, Kentucky, E4 6DE",
+        "Email": "candacepitts@gmail.com",
+        "MobileNumber": "07 (993) 552-2775",
+        "ContactNumber": "0208 (941) 594-2412",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Brittany Buckner",
+        "Addres1": "532 Orient Avenue, Cotopaxi, Nebraska, E1 6DE",
+        "Email": "brittanybuckner@gmail.com",
+        "MobileNumber": "07 (837) 437-3310",
+        "ContactNumber": "0208 (888) 461-2245",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/41.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Perez Dyer",
+        "MobileNumber": "075 (894) 426-2077",
+        "ContactNumber": "0207 (853) 471-2393",
+        "Email": "perezdyer@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/35.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Day Hopper",
+        "MobileNumber": "075 (926) 591-2062",
+        "ContactNumber": "0207 (903) 454-3265",
+        "Email": "dayhopper@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/21.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Gross Eaton",
+        "MobileNumber": "075 (862) 520-3813",
+        "ContactNumber": "0207 (866) 534-2433",
+        "Email": "grosseaton@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/28.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 117,
+      "Address1": "Prospect Avenue",
+      "Address2": "Marbury",
+      "Address3": "Pennsylvania",
+      "Address4": "SW4 8AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 2024.5
+  },
+  {
+    "DateAgreement": "2021-06-17",
+    "StartDate": "2021-06-17",
+    "EndDate": "2022-06-17",
+    "Landlords": [
+      {
+        "Fullname": "Felecia Mcbride",
+        "Addres1": "579 Tompkins Place, Coloma, Guam, E4 6DE",
+        "Email": "feleciamcbride@gmail.com",
+        "MobileNumber": "07 (972) 457-3779",
+        "ContactNumber": "0208 (889) 528-2585",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/9.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Courtney Knight",
+        "Addres1": "916 Debevoise Avenue, Bedias, Wyoming, E1 6DE",
+        "Email": "courtneyknight@gmail.com",
+        "MobileNumber": "07 (853) 498-2105",
+        "ContactNumber": "0208 (944) 408-3805",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/31.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Herrera Hartman",
+        "MobileNumber": "075 (956) 517-2473",
+        "ContactNumber": "0207 (855) 547-3388",
+        "Email": "herrerahartman@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Richards Simpson",
+        "MobileNumber": "075 (945) 500-2321",
+        "ContactNumber": "0207 (961) 440-3466",
+        "Email": "richardssimpson@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/36.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Woodard Waller",
+        "MobileNumber": "075 (844) 525-3227",
+        "ContactNumber": "0207 (939) 519-2365",
+        "Email": "woodardwaller@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/32.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 161,
+      "Address1": "Conduit Boulevard",
+      "Address2": "Templeton",
+      "Address3": "Georgia",
+      "Address4": "SW3 7AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 2928.29
+  },
+  {
+    "DateAgreement": "2022-05-18",
+    "StartDate": "2022-05-18",
+    "EndDate": "2023-05-18",
+    "Landlords": [
+      {
+        "Fullname": "Earlene Savage",
+        "Addres1": "735 Wilson Avenue, Westwood, District Of Columbia, E1 8DE",
+        "Email": "earlenesavage@gmail.com",
+        "MobileNumber": "07 (974) 511-3823",
+        "ContactNumber": "0208 (856) 410-3651",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/34.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Jacquelyn Moon",
+        "Addres1": "562 Clara Street, Roderfield, New Jersey, E2 9DE",
+        "Email": "jacquelynmoon@gmail.com",
+        "MobileNumber": "07 (968) 419-3308",
+        "ContactNumber": "0208 (950) 598-2608",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/42.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Rios Moss",
+        "MobileNumber": "075 (966) 530-3117",
+        "ContactNumber": "0207 (927) 564-2372",
+        "Email": "riosmoss@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/11.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Porter Jenkins",
+        "MobileNumber": "075 (981) 441-2552",
+        "ContactNumber": "0207 (821) 492-2737",
+        "Email": "porterjenkins@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/7.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Rutledge Newman",
+        "MobileNumber": "075 (850) 425-2132",
+        "ContactNumber": "0207 (945) 530-3846",
+        "Email": "rutledgenewman@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/43.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 195,
+      "Address1": "Chestnut Street",
+      "Address2": "Trail",
+      "Address3": "South Dakota",
+      "Address4": "SW1 9AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 2182.2
+  },
+  {
+    "DateAgreement": "2021-11-10",
+    "StartDate": "2021-11-10",
+    "EndDate": "2022-11-10",
+    "Landlords": [
+      {
+        "Fullname": "Gayle Sullivan",
+        "Addres1": "276 Ryerson Street, Cannondale, Alabama, E3 9DE",
+        "Email": "gaylesullivan@gmail.com",
+        "MobileNumber": "07 (868) 488-3074",
+        "ContactNumber": "0208 (848) 433-2844",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/38.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Jamie Schneider",
+        "Addres1": "841 Eagle Street, Waverly, Kansas, E4 8DE",
+        "Email": "jamieschneider@gmail.com",
+        "MobileNumber": "07 (811) 579-2955",
+        "ContactNumber": "0208 (932) 420-3370",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/46.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Reilly Duran",
+        "MobileNumber": "075 (917) 589-2399",
+        "ContactNumber": "0207 (946) 555-2546",
+        "Email": "reillyduran@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/38.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Farrell Pratt",
+        "MobileNumber": "075 (814) 570-3108",
+        "ContactNumber": "0207 (899) 454-2572",
+        "Email": "farrellpratt@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/15.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Sparks Vance",
+        "MobileNumber": "075 (819) 520-3095",
+        "ContactNumber": "0207 (920) 427-2012",
+        "Email": "sparksvance@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/44.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 9,
+      "Address1": "Kingsway Place",
+      "Address2": "Chalfant",
+      "Address3": "New Hampshire",
+      "Address4": "SW5 8AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 1330.17
+  },
+  {
+    "DateAgreement": "2021-11-19",
+    "StartDate": "2021-11-19",
+    "EndDate": "2022-11-19",
+    "Landlords": [
+      {
+        "Fullname": "Louella House",
+        "Addres1": "383 Mayfair Drive, Coaldale, Florida, E3 6DE",
+        "Email": "louellahouse@gmail.com",
+        "MobileNumber": "07 (947) 521-3104",
+        "ContactNumber": "0208 (811) 571-3567",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/24.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Florence Bray",
+        "Addres1": "658 Seagate Avenue, Finderne, Palau, E1 6DE",
+        "Email": "florencebray@gmail.com",
+        "MobileNumber": "07 (998) 596-3763",
+        "ContactNumber": "0208 (919) 507-3966",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/41.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Pitts Boyd",
+        "MobileNumber": "075 (839) 568-3335",
+        "ContactNumber": "0207 (802) 448-2693",
+        "Email": "pittsboyd@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Solomon Peters",
+        "MobileNumber": "075 (809) 435-3595",
+        "ContactNumber": "0207 (894) 586-2667",
+        "Email": "solomonpeters@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Meyers Duncan",
+        "MobileNumber": "075 (881) 500-2621",
+        "ContactNumber": "0207 (873) 400-3941",
+        "Email": "meyersduncan@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/17.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 19,
+      "Address1": "Stryker Street",
+      "Address2": "Marienthal",
+      "Address3": "Minnesota",
+      "Address4": "SW3 10AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 1683.9
+  },
+  {
+    "DateAgreement": "2021-01-04",
+    "StartDate": "2021-01-04",
+    "EndDate": "2022-01-04",
+    "Landlords": [
+      {
+        "Fullname": "Flora Castaneda",
+        "Addres1": "621 Bayard Street, Oasis, Washington, E3 8DE",
+        "Email": "floracastaneda@gmail.com",
+        "MobileNumber": "07 (923) 504-3013",
+        "ContactNumber": "0208 (860) 573-2678",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Amalia Whitley",
+        "Addres1": "222 Veronica Place, Blanford, Wisconsin, E5 8DE",
+        "Email": "amaliawhitley@gmail.com",
+        "MobileNumber": "07 (905) 418-3262",
+        "ContactNumber": "0208 (848) 413-2434",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/23.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Heath Arnold",
+        "MobileNumber": "075 (810) 498-3518",
+        "ContactNumber": "0207 (984) 525-3190",
+        "Email": "heatharnold@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/28.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Robbins William",
+        "MobileNumber": "075 (917) 492-3408",
+        "ContactNumber": "0207 (984) 419-3653",
+        "Email": "robbinswilliam@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Durham Bowman",
+        "MobileNumber": "075 (849) 461-2968",
+        "ContactNumber": "0207 (888) 580-2733",
+        "Email": "durhambowman@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/37.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 46,
+      "Address1": "Howard Alley",
+      "Address2": "Fidelis",
+      "Address3": "Nevada",
+      "Address4": "SW4 6AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 2111.45
+  },
+  {
+    "DateAgreement": "2021-08-05",
+    "StartDate": "2021-08-05",
+    "EndDate": "2022-08-05",
+    "Landlords": [
+      {
+        "Fullname": "Mable Adams",
+        "Addres1": "673 Howard Avenue, Winston, Colorado, E4 8DE",
+        "Email": "mableadams@gmail.com",
+        "MobileNumber": "07 (916) 575-2828",
+        "ContactNumber": "0208 (945) 503-2928",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/41.jpg",
+        "LandlordNote": ""
+      },
+      {
+        "Fullname": "Bette Valentine",
+        "Addres1": "903 Canal Avenue, Yogaville, Montana, E5 9DE",
+        "Email": "bettevalentine@gmail.com",
+        "MobileNumber": "07 (921) 511-3450",
+        "ContactNumber": "0208 (925) 551-3994",
+        "PhotoUrl": "https://randomuser.me/api/portraits/women/43.jpg",
+        "LandlordNote": ""
+      }
+    ],
+    "Tenants": [
+      {
+        "TenantName": "Blair Clements",
+        "MobileNumber": "075 (903) 551-2621",
+        "ContactNumber": "0207 (866) 586-3586",
+        "Email": "blairclements@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/42.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Baldwin Oneal",
+        "MobileNumber": "075 (876) 426-3321",
+        "ContactNumber": "0207 (848) 575-2129",
+        "Email": "baldwinoneal@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+        "TenantNote": ""
+      },
+      {
+        "TenantName": "Hamilton Lucas",
+        "MobileNumber": "075 (851) 497-3010",
+        "ContactNumber": "0207 (885) 467-2305",
+        "Email": "hamiltonlucas@hotmail.co.uk",
+        "PhotoUrl": "https://randomuser.me/api/portraits/men/33.jpg",
+        "TenantNote": ""
+      }
+    ],
+    "House": {
+      "DoorNum": 112,
+      "Address1": "Locust Avenue",
+      "Address2": "Guthrie",
+      "Address3": "Vermont",
+      "Address4": "SW1 7AB",
+      "Address5": "",
+      "Address6": "",
+      "Premises": "2 Bedroom House",
+      "HouseNote": ""
+    },
+    "Rent": 1069.83
+  }
+]
